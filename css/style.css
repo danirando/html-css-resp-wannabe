@@ -135,3 +135,46 @@ img {
         max-width: 768px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+
+    }
+
+    .row {
+        display: block;
+    }
+
+    .row * {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .row .col {
+        width: 90%;
+    }
+
+    .card {
+        padding-bottom: 30px;
+    }
+
+    section.why-us {
+        background: #222222;
+        margin: 0;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us li {
+        margin: 0;
+        padding-bottom: 2.5rem;
+    }
+
+    .why-us .container h2 {
+        padding-top: 2.5rem;
+    }
+}
